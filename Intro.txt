@@ -1,0 +1,16 @@
+C++ is the programming language designed by Bjarne Stroustrup at Bell Labs in 1979. It is a statically typed, 
+compiled, and multi-paradigm programming language that is crafted as an extension of the C programming language.
+
+                1) multi-paradigm : A programming language is called multi-paradigm when it supports both
+                    OOP and procidroral way of writng code 
+                    examples : C++, Python, C #
+
+                2) Compiled : A prog lang is "Compiled" when it
+                   get's translated into the system understandable byte code.
+                   
+                   "Almost every language is "Compiled" though not every language
+                   is "Interpreted" like C,C++,go and rust".
+
+                3) Statically typed : A prog lang is "Statically typed" when the language 
+                   is needed to be made aware with data types the language is get's called
+                   a Statically typed language.
