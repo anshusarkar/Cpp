@@ -3,7 +3,7 @@ compiled, and multi-paradigm programming language that is crafted as an extensio
 
                 1) multi-paradigm : A programming language is called multi-paradigm when it supports both
                     OOP and procidroral way of writng code 
-                    examples : C++, Python, C #
+                    examples : C++, Python, C #, Kotlin, Javascript etc...
 
                 2) Compiled : A prog lang is "Compiled" when it
                    get's translated into the system understandable byte code.
