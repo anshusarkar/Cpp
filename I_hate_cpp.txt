@@ -1,0 +1,9 @@
+C is better as a structure oriented langug to CPP is nothing but C with classes .... 
+
+but in reality it's Classes are nothing but pseudo structures ... nothing like of java and Python ... 
+
+and TBH it's inheritance sucks ... specially the Multilevel inheritance as I can't do a method call in another class and 
+
+then call  the method from that class reference ... as I have to redefine it every time !........
+
+CPP sucks ... unless It's used like C ... then it's the best in evry regrads 
