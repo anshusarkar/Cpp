@@ -12,7 +12,7 @@ public:
 
 class Derived : public Base {
 public:
-    void method() override {
+    void method() override { // That's how ovverride keyword is used in CPP though everything that is inherited from a class to another class get's refined anyway
         cout << "The virtual methods are often the methods that are to be inherited and overridden\n";
     }
 
