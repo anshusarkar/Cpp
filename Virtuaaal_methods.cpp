@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Base {
+class Base {  // it's just method overrriding of java 
 public:
     virtual void method() {
         cout << "Virtual methods are just used to be overridden like in java if inherited by any other class, though if inherited by any other class in cpp we redefine it anyway!\n" << endl;
