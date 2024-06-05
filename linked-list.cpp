@@ -1,24 +1,30 @@
 #include<iostream>
 using namespace std;
 
-class ABC {
+class Linkedlist {
 private:
-    int var;
-    ABC* ptr;
+    int var = 0;
+    Linkedlist* ptr; // self referance of the linkedlist class just like in C's "structue"
 
 public:
-    ABC() {
-        var = 0;
-        ptr = NULL;
+
+    Linkedlist() {
+        this -> var = var;
+        this -> ptr = NULL; // But unlike C now the class would have a constructor just like java and python anyway C is just C with classes 
     }
 
+
     void insert(int value) {
-        ABC* newNode = new ABC(); // class instance
-        newNode->var = value;
+        Linkedlist* newNode = new Linkedlist(); // Class instance 
+
+        newNode -> var = value; // Linking values with newNode instance's var named variable
+
         if (ptr == NULL) {
             ptr = newNode;
         } else {
-            ABC* current = ptr;
+            
+            Linkedlist* current = ptr;
+
             while (current->ptr != NULL) {
                 current = current->ptr;
             }
@@ -27,29 +33,20 @@ public:
     }
 
     void display() {
-        ABC* current = ptr;
+        Linkedlist* current = ptr;
         while (current != NULL) {
             cout << current->var << endl;
             current = current->ptr;
         }
     }
-    ~ABC(){
-        ABC* current = ptr;
-        while (current != NULL) {
-            ABC* next = current->ptr;
-            delete current;
-            current = next;
-        }
-    }
 };
 
 int main() {
-    ABC A;
+    Linkedlist A;
     A.insert(1);
     A.insert(2);
 
     A.display();
-
 
     return 0;
 }

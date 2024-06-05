@@ -1,1 +1,4 @@
-A(1, 2)
+    // Linkedlist() {
+    //     var = 0;
+    //     ptr = nullptr;
+    // }
