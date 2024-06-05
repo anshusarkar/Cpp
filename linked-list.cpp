@@ -13,7 +13,7 @@ public:
     }
 
     void insert(int value) {
-        ABC* newNode = new ABC();
+        ABC* newNode = new ABC(); // class instance
         newNode->var = value;
         if (ptr == NULL) {
             ptr = newNode;
